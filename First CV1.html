@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style> 
+	p {
+		-webkit-margin-before: 4px;
+		-webkit-margin-after: 4px;
+	}
+	ul{
+		-webkit-padding-start: 10px;
+	}
+	
+	.main {
+
+		padding: 10px;
+		margin: auto;
+		text-align: center;
+
+	}
+	header {
+		font-size: 20px;
+		background-color: #3d4f5b;
+		border: 2px solid #d3d3d3;
+		border-bottom: 0px solid #d3d3d3;
+		color: white;
+		font-family: Calibri;
+		text-align: center;
+		padding: 25px;
+		display: block;
+		width: 600px;
+	}
+	.name {
+		background: #656565;
+		font-family: Calibri;
+		font-size: 14px;
+		color: white;
+		text-align: center;
+	}
+	.character{
+		height: 500px;
+		text-align: left;
+		padding: 5px;
+		color: #084b8a;
+
+	}
+
+	.borderbtm{
+		border-bottom: 2px solid;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.radius{
+		border-radius: 6px;
+	}
+
+	#main {
+		max-width: 653px;
+		margin: 0px;
+		padding: 0px;
+		display: -webkit-flex;
+		display:         flex;
+		-webkit-flex-flow: row;
+		flex-flow: row;
+	}
+
+	#main > article {
+		border: 2px solid #d3d3d3;
+		border-left: 0px;
+		background: #fff;
+		-webkit-flex: 3 1 60%;
+		flex: 3 1 60%;
+		-webkit-order: 2;
+		order: 2;
+	}
+
+	#main > nav {
+		border: 2px solid #d3d3d3;
+		background: #656565;
+		-webkit-flex: 1 6 20%;
+		flex: 1 6 20%;
+		-webkit-order: 1;
+		order: 1;
+	}
+
+	.trmargin{
+		margin-bottom: 5px;
+	}
+	.red{
+		background-color: red;
+	}
+	.yellow{
+		background-color: green;
+	}
+	.blue{
+		background-color: blue;
+	}
+	.imglogo{
+		max-width: 150px;
+		max-height: 150px;
+		border: 2px solid gray;
+		border-radius: 800px;
+	}
+	</style> 
+
+	<meta charset="utf-8">
+
+	<title> First CV page</title>
+</head>
+<body>
+	<center>
+		<header>Главная страница</header>
+		<div id='main'>
+
+			<article>
+				<div class="character">
+					<div class="borderbtm">
+						<b>Дата рождения:</b>
+						<p>1 января 2000г</p>
+						<b>Место рождения</b>
+						<p>теплая печка</p>
+					</div>
+					<div class="borderbtm">
+						<b>Soft skills:</b>
+						<p>– Photoshop</p>
+						<p>– Word</p>
+						<p>– Paint</p>
+					</div>
+					<div class="borderbtm">
+						<b>Обо мне</b>
+						<p>– Курю</p>
+						<p>– Пью</p>
+					</div>
+				</div>
+			</article>
+			<nav>
+				<div class="name main"><img class="imglogo" src="https://www.jotform.com/resources/assets/icon/min/jotform-icon-orange-400x400.png"><br><h2>Бойченко Наталя</h2><hr>
+
+					<center><b><u><p>Люблю:</p></u></b></center>
+					<table width="90px" border="0"> 
+						<tr class="trmargin">
+							<td class="yellow radius">Пивасик</td>
+
+						</tr>
+					</table>
+
+					<table width="70px" border="0"> 
+						<tr class="trmargin">
+							<td class="blue radius">Друзей</td>
+
+						</tr>
+					</table>
+
+					<table width="130px" border="0"> 
+						<tr class="trmargin">
+							<td class="red radius">Сметану</td>
+
+						</tr>
+					</table>
+					<center><b><u><p>Контакты:</p></u></b></center>
+					<ul>
+						<li><a href="https://www.facebook.com"> Facebook </a></li> <!-- Вместо # должна быть ссылка -->
+						<li><a href="https://www.instagram.com/"> Instagram</a></li>
+						<li><a href="https://twitter.com/"> Twitter </a></li>
+					</ul>
+				</div>
+			</nav>
+
+
+		</div>
+	</center>
+</body>
+</html>
